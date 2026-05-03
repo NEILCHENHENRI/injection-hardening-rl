@@ -27,7 +27,7 @@ injection-hardening-rl/
 ├── training/                     ← outer loop that trains the agent
 │   ├── __init__.py
 │   ├── rl_train.py               ← RLTrainer, RLConfig
-│   ├── runner.py                 ← EpisodeRunner (moved from root)
+│   ├── runner.py                 ← EpisodeRunner
 │   ├── rollout.py                ← RolloutCollector
 │   ├── buffer.py                 ← TrajectoryBuffer
 │   └── checkpoint.py             ← CheckpointManager
