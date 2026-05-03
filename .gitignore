@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Model artifacts (can be large)
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data (download separately; see README)
+data/
+
+# Logs and outputs
+logs/
+*.json
+!submission/model_template.py
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
